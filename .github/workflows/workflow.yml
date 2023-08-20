@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: mark-build-red
-      uses: denbeigh2000/mark-build-red@v1.0.0
+      uses: ./action.yml

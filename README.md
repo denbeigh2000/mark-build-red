@@ -1,7 +1,5 @@
 # :x: Mark every build as red
 
-[![Test status](https://github.com/denbeigh2000/always-red/actions/workflows/workflow.yml/badge.svg)](https://github.com/denbeigh2000/always-red/actions/workflows/workflow.yml)
-
 Spur chaos in your corner of the world by making your build status
 permanently red.
 
@@ -23,5 +21,5 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: denbeigh2000/always-red
+      - uses: denbeigh2000/mark-build-red
 ```

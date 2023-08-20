@@ -4,5 +4,5 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-    - name: mark-build-red
-      uses: ./
+    - uses: actions/checkout@v3
+    - uses: ./

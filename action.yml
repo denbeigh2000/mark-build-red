@@ -3,7 +3,7 @@ author: denbeigh2000
 description: "For people who want to watch the world burn."
 runs:
   using: 'docker'
-  image: 'debian:stable-slim'
+  image: 'docker://debian:stable-slim'
   entrypoint: 'sh'
   args:
     - '-c'

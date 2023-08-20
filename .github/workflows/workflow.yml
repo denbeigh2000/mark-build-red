@@ -4,4 +4,5 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: denbeigh2000/mark-build-red
+    - name: mark-build-red
+      uses: denbeigh2000/mark-build-red@v1.0.0

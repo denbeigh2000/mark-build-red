@@ -1,0 +1,13 @@
+name: 'Always Red'
+author: denbeigh2000
+description: "For people who want to watch the world burn."
+runs:
+  using: 'docker'
+  image: 'debian:stable-slim'
+  entrypoint: 'sh'
+  args:
+    - '-c'
+    - 'exit 1'
+branding:
+  icon: 'x'
+  color: 'red'

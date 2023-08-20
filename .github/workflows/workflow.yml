@@ -1,8 +1,8 @@
-name: "Super-important test"
+name: "Build status"
 on: push
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
     - name: mark-build-red
-      uses: ./action.yml
+      uses: ./

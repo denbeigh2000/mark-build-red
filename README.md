@@ -1,5 +1,7 @@
 # :x: Mark every build as red
 
+[![Build status](https://github.com/denbeigh2000/mark-build-red/actions/workflows/workflow.yml/badge.svg?branch=badge)](https://github.com/denbeigh2000/mark-build-red/actions/workflows/workflow.yml)
+
 Spur chaos in your corner of the world by making your build status
 permanently red.
 

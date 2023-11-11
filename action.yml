@@ -5,6 +5,7 @@ inputs:
   message:
     description: "Custom error to include in GitHub action logs"
     required: false
+    default: "This build has been marked as red."
 runs:
   using: 'node20'
   main: 'index.js'

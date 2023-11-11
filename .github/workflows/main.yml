@@ -6,3 +6,5 @@ jobs:
     name: Validates mark-build-red fails in the intended fashion
     steps:
       - uses: denbeigh2000/mark-build-red@denbeigh/javascript
+        inputs:
+          message: "Build marked red."

@@ -1,0 +1,25 @@
+{
+  "name": "mark-build-red",
+  "version": "2.0.0-beta",
+  "description": "Github Action to mark all builds as red.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denbeigh2000/mark-build-red.git"
+  },
+  "author": "Denbeigh Stevens <denbeigh@denbeighstevens.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denbeigh2000/mark-build-red/issues"
+  },
+  "homepage": "https://github.com/denbeigh2000/mark-build-red#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.1"
+  }
+}

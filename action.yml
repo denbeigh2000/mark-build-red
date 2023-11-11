@@ -1,13 +1,14 @@
 name: 'mark-build-red'
 author: denbeigh2000
 description: "For people who want to watch the world burn."
+inputs:
+  message:
+    description: "Custom error to include in GitHub action logs"
+    required: false
+    default: "This build has been marked as red."
 runs:
-  using: 'docker'
-  image: 'docker://debian:stable-slim'
-  entrypoint: 'sh'
-  args:
-    - '-c'
-    - 'exit 1'
+  using: 'node20'
+  main: 'dist/index.js'
 branding:
   icon: 'x'
   color: 'red'

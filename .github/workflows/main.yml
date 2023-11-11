@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Validates mark-build-red fails in the intended fashion
     steps:
-      - uses: denbeigh2000/mark-build-red@denbeigh/javascript
+      - uses: denbeigh2000/mark-build-red@denbeigh/test
         with:
           message: "Build marked red."

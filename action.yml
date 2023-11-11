@@ -2,12 +2,8 @@ name: 'mark-build-red'
 author: denbeigh2000
 description: "For people who want to watch the world burn."
 runs:
-  using: 'docker'
-  image: 'docker://debian:stable-slim'
-  entrypoint: 'sh'
-  args:
-    - '-c'
-    - 'exit 1'
+  using: 'node20'
+  main: 'index.js'
 branding:
   icon: 'x'
   color: 'red'

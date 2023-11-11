@@ -1,7 +1,7 @@
 const core = require("@actions/core");
 
 const msg = core.getInput("message", {
-    required: false,
+    required: true,
     trimWhitespace: true,
 });
 core.info(msg);

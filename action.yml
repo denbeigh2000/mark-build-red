@@ -1,6 +1,10 @@
 name: 'mark-build-red'
 author: denbeigh2000
 description: "For people who want to watch the world burn."
+inputs:
+  message:
+    description: "Custom error to include in GitHub action logs"
+    required: false
 runs:
   using: 'node20'
   main: 'index.js'
